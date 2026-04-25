@@ -6,6 +6,9 @@
   "bin": {
     "slack-mcp-server": "bin/index.js"
   },
+  "scripts": {
+    "build:local": "go build -o ../../slack-mcp-server-fixed ../../cmd/slack-mcp-server/main.go"
+  },
   "optionalDependencies": {
     "slack-mcp-server-darwin-amd64": "1.1.0",
     "slack-mcp-server-darwin-arm64": "1.1.0",
